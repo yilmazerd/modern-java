@@ -9,6 +9,11 @@ public class GraphImpl {
         g.addEdge(0,3);
         g.addEdge(2,3);
         g.addEdge(1,3);
+        int degree = 0;
+        for (int w: g.adj(3)) {
+            degree++;
+        }
+        int ss = 2;
     }
 
 }

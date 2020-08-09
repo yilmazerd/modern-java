@@ -1,7 +1,5 @@
 package modernjavainaction.graphalgo;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -24,11 +22,11 @@ public class Graph {
         graphData[w].add(v);
     }
 
-    public int getVertices() {
+    public int V() {
         return vertices;
     }
 
-    public Iterable<Integer> graphData(int v) {
+    public Iterable<Integer> adj(int v) {
         return graphData[v];
     }
 
