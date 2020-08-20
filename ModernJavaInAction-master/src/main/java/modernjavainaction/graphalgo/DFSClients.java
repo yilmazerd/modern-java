@@ -1,5 +1,7 @@
 package modernjavainaction.graphalgo;
 
+import org.junit.Test;
+
 public class DFSClients {
     public static void main(String[] args) {
         dfs_Client_1();
@@ -15,5 +17,11 @@ public class DFSClients {
         DFS dfs = new DFS(g,3);
         int[] edges = dfs.getEdgeTo();
         int deb = 3;
+    }
+
+    @Test
+    public void bfs_Client(){
+
+
     }
 }

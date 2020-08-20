@@ -10,4 +10,7 @@ public class Car {
     return insurance;
   }
 
+  Car(Optional<Insurance> insurance) {
+    this.insurance = insurance;
+  }
 }
